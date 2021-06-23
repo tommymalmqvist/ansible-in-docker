@@ -3,6 +3,5 @@ services:
   ansible-runner:
     build:
         context: .
-        dockerfile: Dockerfile.ansible-runner
     volumes:
       - .:/ansible
