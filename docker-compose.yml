@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  ansible-runner:
+    build:
+        context: .
+        dockerfile: Dockerfile.ansible-runner
+    volumes:
+      - .:/ansible

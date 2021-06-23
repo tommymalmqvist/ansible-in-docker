@@ -1,0 +1,8 @@
+pyyaml
+dnspython
+requests
+netaddr
+setuptools>=11.3
+six
+ansible
+pycrypto
