@@ -2,6 +2,7 @@ version: "3.9"
 services:
   ansible-runner:
     build:
-        context: .
+      context: .
     volumes:
       - .:/ansible
+    # - ~/.ssh/id_rsa:/root/.ssh/id_rsa
