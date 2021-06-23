@@ -18,6 +18,6 @@ RUN mkdir /root/.ssh && chmod 700 /root/.ssh
 
 WORKDIR /ansible
 
-ADD run.sh /ansible
+ADD entrypoint.sh /bin/entrypoint.sh
 
-ENTRYPOINT [ "/ansible/run.sh" ]
+ENTRYPOINT [ "/bin/entrypoint.sh" ]
